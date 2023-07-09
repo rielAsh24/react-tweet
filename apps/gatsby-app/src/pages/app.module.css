@@ -1,0 +1,13 @@
+.root {
+  font-family: var(--tweet-font-family);
+  color: var(--tweet-font-color);
+  background: var(--tweet-bg-color);
+  height: 100vh;
+  overflow: auto;
+  padding: 2rem 1rem;
+}
+.main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(max-content, 550px);
+}

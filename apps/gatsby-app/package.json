@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-app",
+  "private": true,
+  "description": "Test App in Gatsby for React-Tweets",
+  "version": "0.2.0",
+  "author": "rielAsh24",
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "eslint": "7.32.0",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-pnpm": "^1.2.10",
+    "gatsby-plugin-styled-components": "^6.11.0",
+    "react": "0.0.0-experimental-fdc8c81e0-20230707",
+    "react-dom": "0.0.0-experimental-fdc8c81e0-20230707",
+    "react-tweet": "workspace:*"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 8044",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
