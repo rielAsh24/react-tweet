@@ -1,25 +1,26 @@
 {
   "name": "gatsby-app",
-  "private": true,
   "description": "Test App in Gatsby for React-Tweets",
-  "version": "0.2.0",
   "author": "rielAsh24",
+  "version": "0.2.0",
+  "private": true,
   "dependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.0.10",
     "clsx": "^1.2.1",
     "eslint": "7.32.0",
     "gatsby": "^5.11.0",
-    "gatsby-plugin-pnpm": "^1.2.10",
     "gatsby-plugin-styled-components": "^6.11.0",
-    "react": "0.0.0-experimental-fdc8c81e0-20230707",
-    "react-dom": "0.0.0-experimental-fdc8c81e0-20230707",
+    "react": "0.0.0-experimental-bbc8530ed-20230912",
+    "react-dom": "0.0.0-experimental-bbc8530ed-20230912",
     "react-tweet": "workspace:*"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "gatsby-plugin-pnpm": "^1.2.10",
+    "prettier": "^2.8.8",
+    "typescript": "^5.2.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
